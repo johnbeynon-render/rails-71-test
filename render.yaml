@@ -21,9 +21,3 @@ services:
         sync: false
       - key: WEB_CONCURRENCY
         value: 2
-
-envVarGroups:
-  - name: mysite-settings
-    envVars:
-      - key: SECRET
-        generateValue: true
