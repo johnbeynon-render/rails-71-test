@@ -16,6 +16,10 @@ services:
         fromDatabase:
           name: mysite
           property: connectionString
+      - key: DB_HOST
+        fromDatabase:
+          name: mysite
+          property: host
       - key: RAILS_MASTER_KEY
         sync: false
       - key: WEB_CONCURRENCY
